@@ -10,3 +10,11 @@ CREATE TABLE IF NOT EXISTS EMPLOYEE(
    `personal_code` VARCHAR(255) NOT NULL,
    `tax_category` VARCHAR(255)
 );
+
+
+CREATE TABLE IF NOT EXISTS USERS(
+   `username` VARCHAR(255),
+   `password` VARCHAR(255)
+);
+
+INSERT INTO USERS (username, password) VALUES ('user1', '958575b1b18394fbe5b83535dda604cc5e1722a9758f9c82a48556a0eb0cdd94')
